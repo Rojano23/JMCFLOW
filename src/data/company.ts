@@ -2,13 +2,13 @@ import type { Company } from '../types';
 
 
 export const company: Company = {
-  companyName: 'EPC DEL SURESTE, SAPI DE CV',
-  tagline: 'Ingeniería. Procura. Ejecución. Soluciones integrales para la industria energética.',
+  companyName: 'JMC FLOW',
+  tagline: 'Precisión que mueve la industria.',
   description:
-    'EPC DEL SURESTE, SAPI DE CV es una empresa dedicada a brindar soluciones integrales para la industria energética, con enfoque en ingeniería, procura y ejecución.',
+    'JMCFlow suministra equipos e instrumentos especializados para medición y control de procesos, complementados con servicios de ingeniería, configuración y programación.',
   heroTitle: 'Ingeniería y soluciones para la industria energética',
   heroDescription:
-    'Desarrollamos proyectos integrales de ingeniería, procura, construcción, instrumentación y sistemas de control para la industria de petróleo y gas, así como para diversos sectores industriales. Combinamos experiencia técnica, conocimiento del campo y capacidad de ejecución para entregar soluciones confiables, eficientes y orientadas a resultados.',
+    'JMCFlow suministra equipos e instrumentos especializados para medición y control de procesos, complementados con servicios de ingeniería, configuración y programación.',
   primaryCTA: {
     label: 'Iniciar proyecto',
     href: '#contacto',
@@ -27,13 +27,13 @@ export const company: Company = {
   heroBadges: [],
   heroTrustIndicators: [],
   aboutTitle: 'Quiénes somos',
-  aboutSubtitle: 'Experiencia que transforma proyectos en resultados.',
+  aboutSubtitle: 'Buscamos que cada solución responda correctamente a las necesidades de medición del proceso.',
   aboutDescription:
-    'Somos una empresa especializada en Ingeniería, Procura y Construcción (EPC), con amplia experiencia en la industria de petróleo y gas y capacidades aplicables a otros sectores industriales. Nuestro conocimiento en sistemas de control, automatización e instrumentación nos permite integrar soluciones desde la ingeniería y suministro de equipos hasta la instalación, puesta en marcha y soporte en campo. Trabajamos con un enfoque práctico, técnico y orientado a las necesidades reales de cada proyecto, buscando generar valor, confiabilidad y continuidad operativa para nuestros clientes.',
+    'En JMCFlow nos especializamos en el suministro de equipos e instrumentos para la medición y control de procesos industriales, con especial experiencia en soluciones relacionadas con la medición de flujo. Nuestro conocimiento técnico nos permite comprender las necesidades de cada aplicación y ofrecer soluciones que van más allá del suministro de un equipo, acompañando a nuestros clientes en la selección, configuración y puesta en operación de sus instrumentos.',
   mission:
-    'Proporcionar soluciones integrales de ingeniería, procura, construcción, instrumentación, control y servicios especializados para la industria de petróleo, gas y otros sectores industriales, atendiendo las necesidades operativas y de mantenimiento de nuestros clientes con experiencia, innovación y excelencia técnica, contribuyendo a la confiabilidad, eficiencia y continuidad de sus operaciones.',
+    'Proporcionar equipos, instrumentos y soluciones de medición confiables para la industria, respaldados por conocimiento técnico, atención personalizada y servicios de ingeniería que permitan a nuestros clientes operar sus procesos con mayor precisión, seguridad y eficiencia.',
   vision:
-    'Consolidarnos como una empresa líder y referente en soluciones integrales para la industria energética e industrial, reconocida por nuestra capacidad técnica, confiabilidad y compromiso con nuestros clientes, desarrollando proyectos innovadores que generen valor, optimicen recursos y contribuyan al crecimiento sostenible de las operaciones que atendemos.',
+    'Ser una empresa reconocida en México por su experiencia y confiabilidad en soluciones de instrumentación y medición industrial, construyendo relaciones de largo plazo con nuestros clientes y consolidándonos como un aliado técnico para sus proyectos y operaciones.',
   differentiators: [
     {
       id: 'reusable',
@@ -53,15 +53,15 @@ export const company: Company = {
   ],
   aboutMetrics: [],
   aboutCertifications: [],
-  phone: '+52 99 113 5873',
-  email: 'hanaya@epc-ste.com',
-  whatsapp: '+52 99 113 5873',
+  phone: '+52 99 313 5873',
+  email: 'contacto@jmcflow.com',
+  whatsapp: '+52 99 313 5873',
   address: 'Av. Reforma 123, Ciudad de México, México',
   businessHours: 'Lunes a Viernes · 09:00 - 18:00',
   googleMapsUrl: 'https://www.google.com/maps',
   socialLinks: {
-    linkedin: 'https://www.linkedin.com/company/epc-ste',
-    instagram: 'https://www.instagram.com/epc_ste',
-    facebook: 'https://www.facebook.com/epc.ste',
+    linkedin: 'https://www.linkedin.com/company/jmcflow',
+    instagram: 'https://www.instagram.com/jmcflow',
+    facebook: 'https://www.facebook.com/jmcflow',
   },
 };

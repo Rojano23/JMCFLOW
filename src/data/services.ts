@@ -17,9 +17,9 @@ export const services: Service[] = [
     title: 'Sistemas de Medición',
     shortDescription: 'Servicios de configuración, puesta en marcha y mantenimiento.',
     detailedDescription:
-      'Contamos con especialistas en programación y configuración de computadores de flujo de diferentes marcas, desarrollamos e implementamos HMIs. Además, ofrecemos ingeniería para patines de medición de transferencia de custodia y sistemas de gestión de la medición.',
+      'Contamos con especialistas en programación y configuración de computadores de flujo de diferentes marcas, desarrollamos e implementamos HMIs. Además, ofrecemos acompañamiento técnico para instalación, configuración y solución de problemas relacionados con los equipos suministrados.',
     icon: '',
-    featured: false,
+    featured: true,
     image: strategyServiceImage,
     imageAlt: 'Ingenieros revisando sistemas de medición e instrumentación en campo.',
   },
@@ -28,7 +28,7 @@ export const services: Service[] = [
     title: 'Servicios Especializados',
     shortDescription: 'Nuestros ingenieros son especialistas en instrumentación, control y automatización.',
     detailedDescription:
-      'Somos especialistas en servicios de mantenimiento, ajustes y calibración de instrumentos de presión y temperatura. Configuración y programación de SDMC, SGYF y SPPE.',
+      'Soluciones especializadas para medición de flujo, instrumentos para medición y control de procesos, configuración y programación de computadores de flujo, ingeniería y soporte técnico para aplicaciones industriales.',
     icon: '',
     featured: false,
     image: specializedServiceImage,

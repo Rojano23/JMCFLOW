@@ -3,7 +3,7 @@ import type { FeatureFlags } from '../types';
 export const features: FeatureFlags = {
   about: true,
   services: true,
-  industries: true,
+  industries: false,
   projects: true,
   differentiators: false,
   whatsapp: true,

@@ -3,29 +3,29 @@ import type { Project } from '../types';
 export const projects: Project[] = [
   {
     id: 'Pemex Exploración y Producción',
-    title: 'Desarrollo de Ingeniería y Construcción para Pemex Exploración y Producción',
+    title: 'Suministro e instalación de compautador de Flujo FB3000 para Pemex Exploración y Producción',
     sector: 'Energía',
-    shortDescription: 'Ingeniería para la construcción del patín de medición de transferencia de custodia.',
+    shortDescription: 'Suministro, Configuración e instalación de compautador de Flujo FB3000.',
     detailedDescription:
-      'Desarrollo completo de ingeniería y construcción del patín de medición de transferencia de custodia para Pemex Exploración y Producción.',
+      'Desarrollo completo de ingeniería, suministro e instalación de compautador de Flujo FB3000 para Pemex Exploración y Producción.',
     featured: true,
   },
   {
-    id: 'Aeropuertario',
-    title: 'Desarrollo de Ingeniería para Hangar Aeropuertario',
-    sector: 'Aeroespacial',
-    shortDescription: 'Desarrollo de ingeniería para la construcción de un hangar aeropuertario.',
+    id: 'Transporte',
+    title: 'Suministros de transmisores de presión para la planta de cogeneración de la empresa de transporte',
+    sector: 'Transporte',
+    shortDescription: 'Suministros de transmisores de presión para la planta de cogeneración de la empresa de transporte.',
     detailedDescription:
-      'Desarrollo completo de ingeniería básica y de detalle para la construcción de un hangar aeropuertario.',
+      'Suministros de transmisores de presión para la planta de cogeneración de la empresa de transporte.',
     featured: true,
   },
   {
-    id: 'Pemex Refinación',
-    title: 'Procura e instalación de sistema de telemedición para Pemex Refinación',
-    sector: 'Energía',
-    shortDescription: 'Procura e instalación de sistema de telemedición para Pemex Refinación.',
+    id: 'Agua y Saneamiento',
+    title: 'Procura e instalación de sistema de telemedición para Agua y Saneamiento del Estado',
+    sector: 'Agua y Saneamiento',
+    shortDescription: 'Procura e instalación de sistema de telemedición para Agua y Saneamiento del Estado.',
     detailedDescription:
-      'Procura e instalación de sistema de telemedición para Pemex Refinación en la Terminal Marítima Dos Bocas.',
+      'Procura e instalación de sistema de telemedición para Agua y Saneamiento del Estado.',
     featured: false,
   },
 ];
