@@ -6,7 +6,7 @@ export const company: Company = {
   tagline: 'Precisión que mueve la industria.',
   description:
     'JMCFlow suministra equipos e instrumentos especializados para medición y control de procesos, complementados con servicios de ingeniería, configuración y programación.',
-  heroTitle: 'Ingeniería y soluciones para la industria energética',
+  heroTitle: 'Instrumentación y soluciones de medición para la industria',
   heroDescription:
     'JMCFlow suministra equipos e instrumentos especializados para medición y control de procesos, complementados con servicios de ingeniería, configuración y programación.',
   primaryCTA: {

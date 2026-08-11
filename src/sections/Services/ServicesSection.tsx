@@ -18,7 +18,7 @@ export function ServicesSection() {
           as="h2"
           eyebrow="Lo que hacemos"
           title="Nuestros servicios"
-          subtitle="Soluciones configurables para cada etapa de tu proyecto industrial."
+          subtitle="Ponemos nuestra experiencia al servicio de la correcta selección, configuración y aplicación de los equipos."
         />
         <ServicesGrid services={services} />
       </div>
