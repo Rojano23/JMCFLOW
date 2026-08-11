@@ -9,7 +9,7 @@ const engineeringServiceImage = new URL(
   '../assets/client/services/engineering.jpg',
   import.meta.url,
 ).href;
-const electricalServiceImage = new URL('../assets/client/services/electrical.jpg', import.meta.url).href;
+//const electricalServiceImage = new URL('../assets/client/services/electrical.jpg', import.meta.url).href;
 
 export const services: Service[] = [
   {
@@ -45,15 +45,15 @@ export const services: Service[] = [
     image: engineeringServiceImage,
     imageAlt: 'Equipo de ingeniería desarrollando planos y soluciones técnicas industriales.',
   },
-  {
-    id: 'electrical',
-    title: 'Servicios Sistemas Electricos',
-    shortDescription: 'Servicios e instalación de sistemas eléctricos',
-    detailedDescription:
-      'Instalación de canalización eléctrica aérea y subterránea, instalación de cables de media tensión, de fuerza y control para sistemas eléctricos, instalación y mantenimiento de tableros de distribución, CCM´s, subestaciones y acometidas, sistemas de alumbrado, instalación de sistemas de tierra y pararrayos, instalación y mantenimiento de ups y banco de baterías.',
-    icon: '',
-    featured: false,
-    image: electricalServiceImage,
-    imageAlt: 'Trabajos de instalación y mantenimiento de sistemas eléctricos industriales.',
-  },
+  //{
+  //  id: 'electrical',
+  //  title: 'Servicios Sistemas Electricos',
+  //  shortDescription: 'Servicios e instalación de sistemas eléctricos',
+  //  detailedDescription:
+  //    'Instalación de canalización eléctrica aérea y subterránea, instalación de cables de media tensión, de fuerza y control para sistemas eléctricos, instalación y mantenimiento de tableros de distribución, CCM´s, subestaciones y acometidas, sistemas de alumbrado, instalación de sistemas de tierra y pararrayos, instalación y mantenimiento de ups y banco de baterías.',
+  //  icon: '',
+  //  featured: false,
+  //  image: electricalServiceImage,
+  //  imageAlt: 'Trabajos de instalación y mantenimiento de sistemas eléctricos industriales.',
+  //},
 ];

@@ -31,6 +31,12 @@ export const navigationItems: NavigationItem[] = [
     featureKey: 'projects',
   },
   {
+    id: 'gallery',
+    label: 'Galería',
+    href: '#galeria',
+    featureKey: 'gallery',
+  },
+  {
     id: 'contact',
     label: 'Contacto',
     href: '#contacto',

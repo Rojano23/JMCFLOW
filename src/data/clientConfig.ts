@@ -2,6 +2,7 @@ import type { ClientConfig } from '../types';
 
 import { company } from './company';
 import { features } from './features';
+import { gallery } from './gallery';
 import { industries } from './industries';
 import { projects } from './projects';
 import { seo } from './seo';
@@ -15,6 +16,7 @@ export const clientConfig: ClientConfig = {
   services,
   industries,
   projects,
+  gallery,
   contact: {
     phone: company.phone,
     email: company.email,
@@ -42,6 +44,12 @@ export function createClientConfig(overrides: Partial<ClientConfig> = {}): Clien
     seo: {
       ...clientConfig.seo,
       ...overrides.seo,
+    },
+    gallery: {
+      ...clientConfig.gallery,
+      ...(overrides.gallery ?? {}),
+      brands: overrides.gallery?.brands ?? clientConfig.gallery.brands,
+      products: overrides.gallery?.products ?? clientConfig.gallery.products,
     },
     contact: {
       ...clientConfig.contact,

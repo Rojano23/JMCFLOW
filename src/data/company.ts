@@ -19,7 +19,7 @@ export const company: Company = {
     href: '#servicios',
     ariaLabel: 'Ir a la sección de servicios',
   },
-  heroImage: new URL('../assets/cliente/EPC2.jpg', import.meta.url).href,
+  heroImage: new URL('../assets/cliente/JMCFLOW.jpg', import.meta.url).href,
   heroImageAlt: 'Ilustración corporativa temporal para representar el Hero principal.',
   heroBackgroundImage: '',
   heroVideoBackground: '',

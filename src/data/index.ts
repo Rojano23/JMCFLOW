@@ -1,5 +1,6 @@
 export { company } from './company';
 export { features } from './features';
+export { gallery } from './gallery';
 export { industries } from './industries';
 export { projects } from './projects';
 export { seo } from './seo';

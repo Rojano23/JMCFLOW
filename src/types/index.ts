@@ -122,6 +122,26 @@ export interface Project {
   href?: string;
 }
 
+export interface BrandItem {
+  name: string;
+  logo: string;
+}
+
+export interface ProductItem {
+  title: string;
+  image: string;
+}
+
+export interface GalleryContent {
+  sectionEyebrow: string;
+  sectionTitle: string;
+  sectionSubtitle: string;
+  brandsTitle: string;
+  productsTitle: string;
+  brands: BrandItem[];
+  products: ProductItem[];
+}
+
 export interface SEO {
   title: string;
   description: string;
@@ -155,6 +175,7 @@ export interface FeatureFlags {
   industries: boolean;
   projects: boolean;
   differentiators: boolean;
+  gallery: boolean;
   whatsapp: boolean;
   socialLinks: boolean;
   contactForm: boolean;
@@ -168,6 +189,7 @@ export interface ClientConfig {
   services: Service[];
   industries: Industry[];
   projects: Project[];
+  gallery: GalleryContent;
   contact: ContactDetails;
   socialLinks: SocialLinks;
   featureFlags: FeatureFlags;
@@ -175,7 +197,7 @@ export interface ClientConfig {
 
 export type NavigationFeatureKey = keyof Pick<
   FeatureFlags,
-  'about' | 'services' | 'industries' | 'projects' | 'differentiators'
+  'about' | 'services' | 'industries' | 'projects' | 'differentiators' | 'gallery'
 >;
 
 export interface NavigationItem {
